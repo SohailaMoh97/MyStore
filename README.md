@@ -1,12 +1,18 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+project overview :
+This project is a simple and responsive product listing page built using React and Tailwind CSS. It displays a collection of products fetched from an external API in a clean, card-based layout.
+The page includes a navigation bar and footer for a complete layout structure. Each product card is clickable and leads to a separate product details page that provides full information about the selected item.
+Key features implemented in the project include:
+Dark Mode Toggle: Allows users to switch between light and dark themes.
+Search Functionality: Enables users to search for products by name.
+Sorting Options: Users can sort products by price (low to high / high to low) and alphabetically (A–Z).
+The interface is user-friendly, responsive, and provides a smooth browsing experience.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Repo :
+my-store-three-swart.vercel.app
 
-## Expanding the ESLint configuration
+Tech stack :
+React , Vite ,Tailwind , Axios , React router-dom , Fontawesome  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
