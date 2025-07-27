@@ -20,7 +20,7 @@ export default function Nav() {
               onClick={() => setDarkMode(prev => !prev)}
               className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-md"
               >
-              {darkMode ? 'Light Mode' : 'Dark Mode'}
+              {darkMode ? '☀ Light Mode' : '🌙 Dark Mode'}
             </button>
         </div>
       </nav>
